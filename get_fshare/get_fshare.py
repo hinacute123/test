@@ -70,7 +70,7 @@ class FSAPI:
         link = data['location']
         return link
 
-    def get_folder_urls(self, url, page=0, limit=60):
+    def get_folder_urls(self, url, page=0, limit=200):
         url = self.check_valid(url)
         r = self.s.post(
             'https://api.fshare.vn/api/fileops/getFolderList',
@@ -86,7 +86,7 @@ class FSAPI:
         return data
 
     def get_home_folders(self):
-        r = self.s.get('https://api.fshare.vn/api/fileops/list?pageIndex=0&dirOnly=0&limit=60')
+        r = self.s.get('https://api.fshare.vn/api/fileops/list?pageIndex=0&dirOnly=0&limit=200')
         return r.json()
 
     def get_file_info(self, url):
