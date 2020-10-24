@@ -1,4 +1,4 @@
-# A Fshare API tool built with Python
+# A Fshare API tool built with Python (edit from tudoanh)
 -----------------
 [![Build Status](https://circleci.com/gh/tudoanh/get_fshare.png?style=shield&circle-token=76fafffc2a4ba9d254a5a1d3ac6583b75daff3c2)](https://circleci.com/gh/tudoanh/get_fshare)
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
