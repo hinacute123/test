@@ -6,9 +6,13 @@
 
 ## Getting started  
 
+Preparing
+``` bash
+$ pip install lxml requests hyper
+```  
 First, install `get_fshare` with `pip`:  
 ``` bash
-$ pip install get_fshare
+$ pip install git+https://github.com/hinacute123/test.git
 ```  
 
 Then you can use normaly.  
@@ -18,7 +22,7 @@ Then you can use normaly.
 ``` python
 from get_fshare import FSAPI
 
-URL = 'https://www.fshare.vn/folder/THFVWDY4YT'
+URL = 'https://www.fshare.vn/folder/XXXX'
 
 bot = FSAPI(email="Your email", password="Your password")
 bot.login()
